@@ -44,3 +44,10 @@ https://matrix.DOMAIN/_matrix/client/r0/login
 ## Usage
 
 You then need to start a chat with `@signalbot:YOUR_DOMAIN` (where `YOUR_DOMAIN` is your base domain, not the `matrix.` domain).
+
+## Admin User
+If you want to setup an admin user for the signal bridge set the following variable and replace MXID with your given user matrix ID.
+
+```
+matrix_mautrix_signal_admin_user: 'MXID'
+```
